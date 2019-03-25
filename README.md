@@ -7,7 +7,7 @@ This repository contains the dockerfile and build script for running a CentOS (l
 Execute with the following substituting your own name, ports, and timezone:
 ```
 docker run -d \
-  --name=centos \
+  --name=centos-workstation \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ='America/Chicago' \
@@ -18,13 +18,13 @@ docker run -d \
 
 Ports: `<HOST>:<CONTAINER>`
 
-Default Login
+Default SSH Login
 	Username: root
 	Password:  password
 
 Enter container's shell to change:
 ```
-docker exec -ti centos bash
+docker exec -ti centos-workstation bash
 
 
 [root@container /]# passwd

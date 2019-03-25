@@ -26,10 +26,8 @@ RUN yum install -y \
     nfs-utils \
     bind-utils \
     python \
-    python-devel \
     ntp \
     unzip \
-    zip \
     openssh-server \
     openssh-clients \
     sudo \

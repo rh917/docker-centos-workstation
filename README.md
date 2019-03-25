@@ -16,7 +16,7 @@ docker run -d \
   rhambacher/centos-workstation
 ```
 
-Ports: <HOST>:<CONTAINER>
+Ports: `<HOST>:<CONTAINER>`
 
 Default Login
 	Username: root

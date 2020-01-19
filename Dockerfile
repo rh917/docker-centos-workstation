@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:centos8
 MAINTAINER info@nebulousllc.net
 ENV container docker
 RUN (cd /lib/systemd/system/sysinit.target.wants/; for i in *; do [ $i == \

@@ -25,8 +25,6 @@ RUN yum install -y \
     wget \
     nfs-utils \
     bind-utils \
-    python \
-    ntp \
     unzip \
     openssh-server \
     openssh-clients \
